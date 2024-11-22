@@ -7,7 +7,7 @@ $clientes = json_decode(file_get_contents("php://input"));
 $sql = "UPDATE clientes SET
         nome='$clientes->nome', 
         email='$clientes->email', 
-        senha='$clientes->cpf'
+        cpf='$clientes->cpf'
         WHERE id_cliente=$clientes->id_cliente";
 
 executarSQL($conexao, $sql);

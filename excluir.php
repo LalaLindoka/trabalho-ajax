@@ -1,6 +1,6 @@
 <?php
 
-$id_usuario = $_GET['id_cliente'];
+$id_cliente = $_GET['id_cliente'];
 
 require_once "conexao.php";
 $conexao = conectar();
