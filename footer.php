@@ -9,7 +9,7 @@ $paginaCorrente = basename($_SERVER['SCRIPT_NAME']);
     <div class="row">
       <div class="col l6 s12">
         <h5 class="white-text">Lojas Sanrio</h5>
-        <p class="black-text text-lighten-4">Ela é a Chuu mas não é mais do Loona.</p>
+        <p class="black-text text-lighten-4">Lojas Sanrio.</p>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Links</h5>
